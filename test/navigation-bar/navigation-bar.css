@@ -1,0 +1,75 @@
+:root {
+	--color-0: #222;
+	--color-1: #444;
+	--color-2: #084;
+	--color-3: #0f8;
+	--color-4: #048;
+	--color-5: #08f;
+	--font-color-0: #fff;
+	--font-color-1: #000;
+}
+
+html {
+	background: black;
+}
+
+body {
+	margin: 0;
+}
+
+/* NAVIGATION BAR */
+
+.horizontal-menu {
+	display: flex;
+	justify-content: left;
+	background: var(--color-1);
+}
+
+.horizontal-menu a {
+	width: 130pt;
+	height: 13pt;
+	/* margin: 13pt; */
+	/* border: 8pt solid var(--color-1); */
+	padding: 13pt;
+	font: 13pt sans-serif;
+	background: var(--color-1);
+	color: var(--font-color-0);
+	text-decoration: none; /* Remove underline */
+	text-align: center;
+}
+
+.horizontal-menu a:link {}
+
+.horizontal-menu a:visited {}
+
+.horizontal-menu a:hover {
+	background: var(--color-2);
+	color: var(--font-color-0);
+}
+
+.horizontal-menu a:focus {}
+
+.horizontal-menu a:active {
+	background: var(--color-3);
+	color: var(--font-color-1);
+}
+
+.horizontal-menu #home-button {
+	background: var(--color-4);
+}
+
+.horizontal-menu #home-button:link {}
+
+.horizontal-menu #home-button:visited {}
+
+.horizontal-menu #home-button:hover {
+	background: var(--color-5);
+}
+
+.horizontal-menu #home-button:focus {
+	
+}
+
+.horizontal-menu #home-button:active {
+	background: var(--color-3);
+}
